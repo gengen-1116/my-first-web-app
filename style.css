@@ -5,7 +5,7 @@
 *::after {
   box-sizing: border-box;
 }
-body div{
+.body div{
   display:flex;
   height: 100vh;
 }
@@ -24,7 +24,7 @@ body div{
  border: 1px #e0e0e0; 
 }
 
-a{
+.a{
   font-size: 1.25rem;
   font-weight: 600;
   color:#4f7cac ;
@@ -34,7 +34,7 @@ a{
   text-decoration:none;
 }
 
-main{
+.main{
   flex: 1;
 }
 
@@ -58,13 +58,13 @@ main{
   color: white;
 }
 
-h1{
+.h1{
   font-size: 1.5rem;
   font-weight: 600;
   color:#2f2f2f;
   margin-bottom: 8px;
 }
-h2{
+.h2{
   font-size: 1.125rem;
   color:#757575 ;
   margin-bottom: 24px;
@@ -86,13 +86,13 @@ form,
 input,
 textarea,
 select,
-button {
+.button {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-ul {
+.ul {
   list-style: none;
 }
 /* スタイルのリセット終了 */
